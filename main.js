@@ -7,6 +7,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
+      partition: 'persist:heyhidnd'
     },
   });
 
