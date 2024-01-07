@@ -1,0 +1,37 @@
+{
+  "name": "heyhidnd-app",
+  "version": "1.0.0",
+  "description": "A web app for HeyHiDND.com",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "at.sjh.heyhidnd-app",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssamjh/HeyHiDND-App.git"
+  },
+  "author": "ssamjh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssamjh/HeyHiDND-App/issues"
+  },
+  "homepage": "https://github.com/ssamjh/HeyHiDND-App#readme",
+  "devDependencies": {
+    "electron": "^28.1.1",
+    "electron-packager": "^17.1.2",
+    "electron-builder": "^22.14.5"
+  }
+}
