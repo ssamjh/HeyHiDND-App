@@ -25,10 +25,6 @@
   },
   "author": "ssamjh",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ssamjh/HeyHiDND-App/issues"
-  },
-  "homepage": "https://github.com/ssamjh/HeyHiDND-App#readme",
   "devDependencies": {
     "electron": "^28.1.1",
     "electron-packager": "^17.1.2",
