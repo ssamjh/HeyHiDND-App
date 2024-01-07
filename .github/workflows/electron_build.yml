@@ -21,6 +21,8 @@ jobs:
       - name: Install Electron and Electron Builder
         run: |
           npm install electron@^28.1.1 electron-builder@^24.9.1 --save-dev
+          npm audit fix
+          npm fund
 
       - name: Build App
         env:
